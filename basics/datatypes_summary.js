@@ -7,4 +7,25 @@
 
 //Refrence / Non-Primtive type: Arrays, Objects , Functions
 
+const id = Symbol('123')
+const anotherId = Symbol('123')
+const outsideTemp = null
 
+console.log(id===anotherId);
+
+//const bigNumber = 1233342233859064;
+
+const heros = ["shaktiman" , "nagraaj"];
+let myObj = {
+    name : "sourav",
+    age: 18,
+}
+
+
+const MyFunction = function(){
+    console.log("hello world");
+}
+
+
+console.log(typeof bigNumber);
+console.log(typeof outsideTemp);
