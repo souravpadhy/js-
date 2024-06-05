@@ -28,4 +28,5 @@ const MyFunction = function(){
 
 
 console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
+console.log(typeof outsideTemp); 
+console.log(typeof MyFunction); 
